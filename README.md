@@ -17,4 +17,4 @@ Line 40 —> Runtime error. The build-in method preventDefault has missed it eve
 
 Line 17 —> Logical error. let temp = data.main.temp - 273.15; .main as condition from API was missing. Used console.log(data) and found it in returned object.
 Line 18 —> Logical error. Variable "temp" was missing with Math.round method. Used debugger to see that wrong branch gets called
-Line 28 - 34 —> Logical error. Operators were wrong wrote according to condition, and conditions that make temperature interval were missing. 
+Line 28 - 34 —> Logical error. Operators have been wrong written according to condition, and conditions that make temperature intervals were missing. 
